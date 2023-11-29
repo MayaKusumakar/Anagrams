@@ -1,21 +1,27 @@
 # Anagrams
 ## Problem
-Write a program that checks if two strings are anagrams. A string is an anagram of another string if the letters in the first string can be rearranged to form the second string. For example, army and Mary are anagrams because the letters in army can be rearranged to form Mary.
+This program checks if two strings are anagrams. 
+
+A string is an anagram of another string if the letters in the first string can be rearranged to form the second string. 
+  - For example, army and Mary are anagrams because the letters in army can be rearranged to form Mary.
 
 ## Specifications
-Your check if two strings are anagrams should be case-insensitive
-Ex: MARY and army are anagrams
-The user will only enter words and not phrases
-No input string will be longer than 20 characters
-These 20 characters are not accounting for the null character you will need at the end of your string
+  - Checking if two strings are anagrams is case-insensitive
+    - Ex: MARY and army are anagrams
+  - The user will only enter words and not phrases
+  - No input string will be longer than 20 characters
+    - These 20 characters are not accounting for the null character
+
 ## Assumptions
 Input will always be valid
 
 ## Valid Input
-Word 1: A sequence of alphabetical characters without any whitespace in the middle that is no more than 20 characters long.
-Word 2: A sequence of alphabetical characters without any whitespace in the middle that is no more than 20 characters long.
+  - Word 1: A sequence of alphabetical characters without any whitespace in the middle that is no more than 20 characters long.
+  - Word 2: A sequence of alphabetical characters without any whitespace in the middle that is no more than 20 characters long.
+
 ## Requirements
-You must use have at least 2 functions in your program
+Must have at least 2 functions in your program
+
 ## Restrictions
 No global variables may be used
 
